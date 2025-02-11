@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./articles-list.page.scss'],
   standalone: false,
 })
-export class ArticlesListPage implements OnInit {
+export class ArticlesListComponent implements OnInit {
   articles: Article[] = [];
 
   constructor(

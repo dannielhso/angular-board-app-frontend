@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./article-detail.page.scss'],
   standalone: false,
 })
-export class ArticleDetailPage implements OnInit {
+export class ArticleDetailComponent implements OnInit {
   article: Article | undefined;
   
   constructor(
