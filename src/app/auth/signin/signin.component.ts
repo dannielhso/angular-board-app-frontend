@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
   standalone: false,
 })
 export class SigninComponent  implements OnInit {
+  email: string = '';
+  password: string = '';
 
   constructor() { }
 
   ngOnInit() {}
 
+  onSignIn() {
+    const signInData = {
+      email: this.email,
+      password: this.password,
+    };
+    console.log('Sign In Data:', signInData);
+  }
 }
